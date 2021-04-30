@@ -12,7 +12,7 @@ let myInt2 = 35;
 
 console.log(myInt1 + myInt2);
 
-str1 = +myInt1;
+str1 += " " + myInt1;
 
 console.log(str1);
 
