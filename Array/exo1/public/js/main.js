@@ -1,47 +1,36 @@
+let codings = ["coding11", "coding12", "coding13"];
+
 //1.
-let nombre = 8.56;
+console.log(codings);
 
 //2.
-
-Math.round(nombre);
+console.log(codings.length);
 
 //3.
 
-console.log(Math.ceil(nombre));
+console.log(codings[0]);
+console.log(codings[1]);
+console.log(codings[2]);
 
 //4.
-
-console.log(Math.floor(nombre));
+codings.push("Elvis");
 
 //5.
 
-Math.trunc(nombre);
+console.log(codings);
 
 //6.
 
-console.log(Math.random());
+codings.splice(codings.length - 1, 1, "Cancelled");
 
 //7.
-console.log(Math.random() * 100);
+
+console.log(codings[3]);
 
 //8.
 
-console.log(Math.round(Math.random() * 100));
+codings.pop();
 
 //9.
 
-console.log(Math.pow(8, 2));
-
-//10.
-console.log(Math.sqrt(9));
-
-//11.
-
-console.log(Math.abs(-1));
-
-//12.
-
-console.log(Math.max(-2, 1000, 8, 57));
-
-//13.
-console.log(Math.min(-2, 1000, 8, 57));
+console.log(codings);
