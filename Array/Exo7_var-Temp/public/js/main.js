@@ -44,6 +44,9 @@
 // // Exo 2
 // console.log("Exo 2");
 // console.log("-------");
+
+//2 3 4 1
+// let temp = d;
 // let a = 1;
 
 // let b = 2;
@@ -52,25 +55,17 @@
 
 // let d = 4;
 
-// let temp = d;
-
 // d = a;
-
 // a = b;
-// console.log(a);
 // b = c;
-// console.log(b);
-
 // c = temp;
 
-// console.log(c);
-
-// console.log(d);
+// console.log(a, b, c, d);
 
 // // Exo 3
 // console.log("Exo 3");
 // console.log("-------");
-
+// //res : 4 3 2 1
 // let tableau = [1, 2, 3, 4];
 
 // let temp = tableau[0];
@@ -85,27 +80,27 @@
 
 //Exo 4
 
-console.log("Exo 4:");
-console.log("--------");
-let temp;
-let a = 1;
-let b = 2;
-let c = 3;
-let d = 4;
-let e = 5;
-let f = 6;
+// console.log("Exo 4:");
+// console.log("--------");
+// let temp;
+// let a = 1;
+// let b = 2;
+// let c = 3;
+// let d = 4;
+// let e = 5;
+// let f = 6;
 
-temp = a;
-a = d;
-d = b;
-b = e;
-e = f;
-f = c;
-c = temp;
+// temp = a;
+// a = d;
+// d = b;
+// b = e;
+// e = f;
+// f = c;
+// c = temp;
 
-console.log(a);
-console.log(b);
-console.log(c);
-console.log(d);
-console.log(e);
-console.log(f);
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// console.log(d);
+// console.log(e);
+// console.log(f);
