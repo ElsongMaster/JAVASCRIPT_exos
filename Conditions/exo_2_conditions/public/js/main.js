@@ -53,23 +53,25 @@
 
 //Exo 6
 
-// let rep = prompt("Voulez-vous vous abonné répondez par 'oui' ou par 'non'");
+// let rep = confirm("Voulez-vous vous abonné?");
 
-// let formule = prompt("Quelle formule voulez-vous prendre: 'Luxe' ou 'Normal'?");
-
-// if (formule == "Luxe") {
-//   alert("Félicitation vous avez choisi la formule Luxe !");
-// } else if (formule == "Normal") {
-//   alert("Merci pour votre abonnement");
-// } else {
-//   rep = prompt(
-//     "êtes vous sur de ne vouloir choisir aucune des 2 options ('oui' ou 'non')?"
+// if (rep == true) {
+//   let formule = prompt(
+//     "Quelle formule voulez-vous prendre: 'Luxe' ou 'Normal'?"
 //   );
 
-//   if ("oui") {
-//     alert("C'est dommage, bonne journée");
+//   if (formule == "Luxe") {
+//     alert("Félicitation vous avez choisi la formule Luxe !");
+//   } else if (formule == "Normal") {
+//     alert("Merci pour votre abonnement");
 //   } else {
-//     rep = prompt("Quelle formule voulez-vous prendre: 'Luxe' ou 'Normal'?");
+//     rep = confirm("êtes vous sur de ne vouloir choisir aucune des 2 options ?");
+
+//     if (rep == true) {
+//       alert("C'est dommage, bonne journée");
+//     } else {
+//       rep = prompt("Quelle formule voulez-vous prendre: 'Luxe' ou 'Normal'?");
+//     }
 //   }
 // }
 
