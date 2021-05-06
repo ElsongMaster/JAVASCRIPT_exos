@@ -30,13 +30,20 @@
 //Exo 4
 // let phrase = prompt("Veuillez rentrer une phrase:");
 
-// let rep = prompt("Pouvez vous rentrer un nombre qui représente une estimation de la longueur de la phrase:");
+// let rep = parseInt(
+//   prompt(
+//     "Pouvez vous rentrer un nombre qui représente une estimation de la longueur de la phrase:"
+//   )
+// );
 
-// if(rep == phrase.length){
-//     alert("Félicitation vous avez correctement estimez la longueur de la phrase");
-
-// }else{
-//     alert("Réponses incorrect, vous etiez à  "+Math.abs(rep-phrase.lenght)+" unités de la bonne réponse");
+// if (rep == phrase.length) {
+//   alert("Félicitation vous avez correctement estimez la longueur de la phrase");
+// } else {
+//   alert(
+//     "Réponses incorrect, vous etiez à  " +
+//       Math.abs(rep - phrase.length) +
+//       " unités de la bonne réponse"
+//   );
 // }
 
 //Exo 5
@@ -101,22 +108,25 @@
 
 //8
 
-// let age = prompt("Veuillez rentrer votre age:");
+// let age = parseInt(prompt("Veuillez rentrer votre age:"));
 // let msg;
-// if (parseInt(age) < 0) {
+// if (age <= 0) {
 //   msg = "Vous n'êtes même pas nés, n'essayez même pas de tricher";
-// } else if (parseInt(age) >= 18 && parseInt(age) < 100) {
-//   msg = "Vous êtes majeur, vous pouvez réserver";
-// } else if (parseInt(age) > 100) {
-//   msg = "Vous êtes encore vivant? Eviter de voir ce film pour le rester.";
-// } else {
+// } else if (parseInt(age) < 18 ) {
 //   msg = "Vous êtes mineur, l'accès est réservé aux grands";
+// else if(age == 18){
+//     msg = "Vous pouvez y aller mais c'est tout juste");
+// }
+// } else if (age < 100) {
+//   msg = "Vous êtes encore vivant? Eviter de voir ce film pour le rester.";}
+// else{
+//     msg = "Vous êtes majeur, vous pouvez réserver";
 // }
 
 // alert(msg);
 
 //9
-//part du principe que la saisie est bonne
+// part du principe que la saisie est bonne
 
 // alert("Veuillez repondre aux questions suivantes par 'oui' ou 'non'");
 
