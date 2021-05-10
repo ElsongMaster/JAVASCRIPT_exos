@@ -97,53 +97,92 @@
 
 //6
 
-let donnees = [
-  14,
-  7,
-  97,
-  {},
-  "247",
-  67,
-  101,
-  true,
-  34,
-  78,
-  [],
-  "coding school",
-  0,
-  11,
-  32,
-  "italie",
-  61,
-  null,
-  "cent",
-  100,
+// let donnees = [
+//   14,
+//   7,
+//   97,
+//   {},
+//   "247",
+//   67,
+//   101,
+//   true,
+//   34,
+//   78,
+//   [],
+//   "coding school",
+//   0,
+//   11,
+//   32,
+//   "italie",
+//   61,
+//   null,
+//   "cent",
+//   100,
+// ];
+
+// console.log(donnees);
+
+// let typeString = [];
+
+// let typeNumber = [];
+
+// let typeObject = [];
+
+// let typeAutre = [];
+// let temp;
+// donnees.forEach((elem) => {
+//   if (typeof elem == "string") {
+//     typeString.push(elem);
+//   } else if (typeof elem == "number") {
+//     typeNumber.push(elem);
+//   } else if (typeof elem == "object") {
+//     typeObject.push(elem);
+//   } else {
+//     typeAutre.push(elem);
+//   }
+// });
+
+// donnees.splices(0,length);
+
+// console.log(typeString);
+
+// console.log(typeNumber);
+
+// console.log(typeObject);
+
+// console.log(typeAutre);
+// console.log(donnees);
+
+//Exo 7
+
+let coding19 = [
+  "Adil",
+  "Agim",
+  "Ali",
+  "Antoine",
+  "Chris",
+  "Elvis",
+  "Fanny",
+  "Haroune",
+  "Ilias D",
+  "Ilias El",
+  "Jean",
+  "Kevin",
+  "Lira",
+  "Mouna",
+  "Nasila",
+  "Nathan",
+  "Seif",
+  "Stan",
+  "Van Hoa",
+  "Yassine",
 ];
 
-let typeString = [];
+let tab = ["A", "F", "G", "I", "H", "L", "M"];
 
-let typeNumber = [];
-
-let typeObject = [];
-
-let typeAutre = [];
-
-donnees.forEach((elem) => {
-  if (typeof elem == "string") {
-    typeString.push(elem);
-  } else if (typeof elem == "number") {
-    typeNumber.push(elem);
-  } else if (typeof elem == "object") {
-    typeObject.push(elem);
-  } else {
-    typeAutre.push(elem);
+coding19.forEach((elem) => {
+  if (!tab.includes(elem[0])) {
+    elem = elem.charAt(0).toLowerCase() + elem.substr(1);
+    console.log(elem);
   }
 });
-
-console.log(typeString);
-
-console.log(typeNumber);
-
-console.log(typeObject);
-
-console.log(typeAutre);
