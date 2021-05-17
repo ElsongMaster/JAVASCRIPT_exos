@@ -61,6 +61,25 @@
 
 //Exo 3
 
+let entier = 5;
+let bool = true; //false
+let str = "";
+let comparaison = "L" !== "l"; //true ou false
+
+let rep = prompt("quel jour on est ?");
+
+if (mavriable === "" && mavriable.length == 2) {
+}
+
+switch (comparaison) {
+  case "Samedi":
+  case "Dimanche":
+    break;
+
+  default:
+    break;
+}
+
 let nbr1 = parseInt(prompt("rentrer un nombre "));
 
 let operateur = prompt("Rentrer le symbole de l'opérateur de calcul");

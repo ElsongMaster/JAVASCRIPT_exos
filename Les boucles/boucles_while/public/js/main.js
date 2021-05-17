@@ -10,7 +10,16 @@
 // }
 
 // //Exo 2
-// let classe = [];
+// let ageEtudiants = { age: 27, age: 24, age: 22 };
+
+// let cpt = 0;
+
+// while (cpt < Object.keys(ageEtudiants).length && ageEtudiants.age < 25) {
+//   console.log(ageEtudiants.age);
+//   cpt++;
+// }
+
+// let classe = [25, 24,23];
 // let maxEtudiant = prompt("Entrer le nombre d'éleves dans la classe");
 // let etudiant;
 // while (i < maxEtudiant) {
@@ -18,6 +27,23 @@
 //   classe.push(etudiant);
 //   i++;
 // }
+
+// let tabEtudiants = [];
+
+// let nomEtudiant;
+
+// while (tabEtudiants.length < 4) {
+//   nomEtudiant = prompt("Veuillez rentrer le nom d'un étudiant:");
+//   tabEtudiants.push(nomEtudiant);
+// }
+
+let mdp = prompt("Veuillez rentrer votre mot de passe");
+
+while (mdp !== "mdp") {
+  mdp = prompt("Mot de passe erroné, veuillez réessayer");
+}
+
+alert("Félicitation vous êtes connecté");
 
 // // correction
 // let classe = [];
@@ -52,29 +78,29 @@
 
 //Exo 4
 
-let fruits = ["pommes", "poires", "pêche", "cerises", "abricot", "raisins"];
+// let fruits = ["pommes", "poires", "pêche", "cerises", "abricot", "raisins"];
 
-while (fruits.length > 0) {
-  fruits.pop();
-  console.log(fruits);
-}
+// while (fruits.length > 0) {
+//   fruits.pop();
+//   console.log(fruits);
+// }
 
 //Exo 5
 
-let panierLegumes = ["choux", "épinards", "poivrons", "oignons"];
+// let panierLegumes = ["choux", "épinards", "poivrons", "oignons"];
 
-let caisseLegumes = [];
+// let caisseLegumes = [];
 // let i = panierLegumes.length - 1;
 
-while (panierLegumes.length > 0) {
-  // let legume = panierLegumes.pop();
-  // console.log(panierLegumes.length);
-  caisseLegumes.push(panierLegumes.pop());
-  // i--;
+// while (panierLegumes.length > 0) {
+// let legume = panierLegumes.pop();
+// console.log(panierLegumes.length);
+// caisseLegumes.push(panierLegumes.pop());
+// i--;
 
-  // console.log(panierLegumes);
-  // console.log(caisseLegumes);
-}
+// console.log(panierLegumes);
+// console.log(caisseLegumes);
+// }
 
 // Exo 6
 // nom  Iouri Gagarine

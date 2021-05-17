@@ -1,6 +1,6 @@
-//fruits ["pommes ", "arbre", "cerises"];
+// fruits ["pommes ", "arbre", "cerises"];
 
-//elementASupprimer = ["pommes"];
+// elementASupprimer = ["pommes"];
 
 // // //Exo 1
 // let coding19 = [
@@ -25,15 +25,19 @@
 //   "Van Hoa",
 //   "Yassine",
 // ];
-// for (i in coding19) {
+// for (i in nb ) {
 //   console.log(`Bonjour ${coding19[i]}`);
 // }
 
 // let nb = parseInt(prompt("veuillez taper un nombre: "));
 
-// for (let i = 0; i <= nb; i++) {
-//   console.log(i);
+// for (let cpt = 0; cpt <= 100; cpt++) {
+//   console.log(cpt);
+//   tab[0] = "A";
 // }
+
+//  let tab =  ["A","B","C"]
+//           //  0   1   2
 
 //Exo 2
 
@@ -97,28 +101,28 @@
 
 //6
 
-// let donnees = [
-//   14,
-//   7,
-//   97,
-//   {},
-//   "247",
-//   67,
-//   101,
-//   true,
-//   34,
-//   78,
-//   [],
-//   "coding school",
-//   0,
-//   11,
-//   32,
-//   "italie",
-//   61,
-//   null,
-//   "cent",
-//   100,
-// ];
+let donnees = [
+  14,
+  7,
+  97,
+  {},
+  "247",
+  67,
+  101,
+  true,
+  34,
+  78,
+  [],
+  "coding school",
+  0,
+  11,
+  32,
+  "italie",
+  61,
+  null,
+  "cent",
+  100,
+];
 
 // console.log(donnees);
 
@@ -126,21 +130,21 @@
 
 // let typeNumber = [];
 
-// let typeObject = [];
+let typeObject = [];
 
-// let typeAutre = [];
-// let temp;
-// donnees.forEach((elem) => {
-//   if (typeof elem == "string") {
-//     typeString.push(elem);
-//   } else if (typeof elem == "number") {
-//     typeNumber.push(elem);
-//   } else if (typeof elem == "object") {
-//     typeObject.push(elem);
-//   } else {
-//     typeAutre.push(elem);
-//   }
-// });
+let typeAutre = [];
+let temp;
+donnees.forEach((elem) => {
+  if (typeof elem == "string") {
+    typeString.push(elem);
+  } else if (typeof elem == "number") {
+    typeNumber.push(elem);
+  } else if (typeof elem == "object") {
+    typeObject.push(elem);
+  } else {
+    typeAutre.push(elem);
+  }
+});
 
 // donnees.splices(0,length);
 
@@ -155,34 +159,25 @@
 
 //Exo 7
 
-let coding19 = [
-  "Adil",
-  "Agim",
-  "Ali",
-  "Antoine",
-  "Chris",
-  "Elvis",
-  "Fanny",
-  "Haroune",
-  "Ilias D",
-  "Ilias El",
-  "Jean",
-  "Kevin",
-  "Lira",
-  "Mouna",
-  "Nasila",
-  "Nathan",
-  "Seif",
-  "Stan",
-  "Van Hoa",
-  "Yassine",
-];
+//
 
-let tab = ["A", "F", "G", "I", "H", "L", "M"];
+// let nb = 100;
+// let coding = ["A", "B", "C"];
+// for (i in coding) {
+if (i % 2 == 0) {
+  //pair
 
-coding19.forEach((elem) => {
-  if (!tab.includes(elem[0])) {
-    elem = elem.charAt(0).toLowerCase() + elem.substr(1);
-    console.log(elem);
+  console.log(coding[i]);
+}
+
+//   // console.log(coding[i]);
+//   if (coding[i] == "B") {
+//     console.log(coding[i]);
+//   }
+// }
+
+coding.forEach((elem) => {
+  if (elem == "B") {
+    console.log(elem.toLowerCase());
   }
 });

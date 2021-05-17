@@ -98,23 +98,46 @@
 //   alert(classeCoding19);
 // };
 
+// //push
+
 // bordel();
 
-//Correction
+// //Correction;
 
-let classeCoding19 = [];
+// let classeCoding19 = [];
 
-let ajouter = (prenom, phrase) => {
-  let tabTemp = prenom.split();
-  for (let i = 0; i < tabTemp.length; i++) {
-    classeCoding19.push(tabTemp[i]);
-  }
-  console.log(phrase);
-  console.log(classeCoding19);
+// let ajouter = (prenom, phrase) => {
+//   let tabTemp = prenom.split();
+//   for (let i = 0; i < tabTemp.length; i++) {
+//     classeCoding19.push(tabTemp[i]);
+//   }
+//   console.log(phrase);
+//   console.log(classeCoding19);
+
+// };
+
+// let retirer = (prenom, phrase, nbr) => {
+//   classeCoding19.splice(classeCoding19.indexOf(prenom), nbr);
+//   console.log(phrase);
+//   console.log(classeCoding19);
+// };
+
+// ajouter("Elvis", "Chouette c'est bientôt le weekend");
+
+let addition = (nb1, nb2) => {
+  return nb1 + nb2;
 };
 
-let retirer = (prenom, phrase, nbr) => {
-  classeCoding19.splice(classeCoding19.indexOf(prenom), nbr);
-  console.log(phrase);
-  console.log(classeCoding19);
+let resFunct = addition(2, 3);
+
+console.log(`funct1:${resFunct}`);
+
+let additionBis = (nb1, nb2) => {
+  let res;
+
+  res = nb1 + nb2;
 };
+
+let resFunct1 = additionBis(2, 3);
+
+console.log(`funct2:${resFunct1}`);
