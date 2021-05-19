@@ -179,12 +179,12 @@ class Personne {
       destination = prompt(
         "Veuillez choisir entre les lieux suivant: 1)Maison 2)Molengeek 3)Snack. Attention à l'orthographe"
       );
-      // alert(destination.nom);
     }
     bus.embarquer(this);
     // Si j'ai pu embarquer dans le bus
     if (bus.personnes.includes(this)) {
       alert(`${heure} Je suis dans le bus pour aller à ${destination}`);
+      bus.personnes.splice(bus.personnes.indexOf(this));
     } else {
       alert(`Je rentre à pied à ${destination} pour digérer`);
     }
